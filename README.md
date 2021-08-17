@@ -44,12 +44,12 @@ See [dataset_info.xlsx](dataset_info.xlsx)
 
 If you use the MEP-3M dataset in your work, please cite it as:
 
-> Chen, D., Liu, F., Du, X., Li, Z. and Xu, F. 2021. MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset. *IJCAI 2021 Workshop on Long-Tailed Distribution Learning*.
+> Chen, D., Liu, F., Du, X., Gao, R. and Xu, F. 2021. MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset. *IJCAI 2021 Workshop on Long-Tailed Distribution Learning*.
 
 BibTex:
 
 > @InProceedings{Chen2020MEP,
->   author    = {Delong Chen and Fan Liu and Xiaoyu Du and Zewen Li and Feng Xu},
+>   author    = {Delong Chen and Fan Liu and Xiaoyu Du and Ruizhuo Gao and Feng Xu},
 >   booktitle = {IJCAI 2021 Workshop on Long-Tailed Distribution Learning},
 >   title     = {MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset},
 >   year      = {2021},
