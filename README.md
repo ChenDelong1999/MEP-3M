@@ -42,7 +42,7 @@ See [dataset_info.xlsx](dataset_info.xlsx)
 
 ## Citation
 
-If you use the MEP-3M dataset in your work, please cite [2021_06_IJCAIW_MEP_3M__A_Large_scale_Multi_modal_E_Commerce_Dataset (17).pdf](2021_06_IJCAIW_MEP_3M__A_Large_scale_Multi_modal_E_Commerce_Dataset (17).pdf)  as:
+If you use the MEP-3M dataset in your work, please cite it as:
 
 > Chen, D., Liu, F., Du, X., Gao, R. and Xu, F. 2021. MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset. *IJCAI 2021 Workshop on Long-Tailed Distribution Learning*.
 
