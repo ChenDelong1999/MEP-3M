@@ -1,5 +1,6 @@
 # MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset
 
+In IJCAI 2021 Workshop on Long-Tailed Distribution Learning (LTDL), https://ltdl-ijcai21.github.io/
 The MEP-3M consists of over **3 million** products and **599** fine-grained product categories. Each product is represented with an image-text pair and annotated with hierarchical labels. The data is collected from several Chinese online shopping websites. The text is in Chinese.
 
 ![1628476496373](assets/1628476496373.png)
