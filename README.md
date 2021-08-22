@@ -54,11 +54,11 @@ If you use the MEP-3M dataset in your work, please cite it as:
 
 BibTex:
 
-> @InProceedings{Chen2020MEP,
->   author    = {Delong Chen and Fan Liu and Xiaoyu Du and Ruizhuo Gao and Feng Xu},
->   booktitle = {IJCAI 2021 Workshop on Long-Tailed Distribution Learning},
->   title     = {MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset},
->   year      = {2021},
+> @InProceedings{Chen2020MEP, 
+>   author    = {Delong Chen and Fan Liu and Xiaoyu Du and Ruizhuo Gao and Feng Xu}, 
+>   booktitle = {IJCAI 2021 Workshop on Long-Tailed Distribution Learning}, 
+>   title     = {MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset}, 
+>   year      = {2021}, 
 > }
 
 `
