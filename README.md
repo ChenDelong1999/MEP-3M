@@ -24,7 +24,7 @@ The dataset consists of three parts: images, text annotations, and category meta
 
 - **Images**: the images are stored 599 `.rar` files (67GB in total) according to their sub-class label. The file names correspond to the sub-class ID. The full images can be accessed through [Baidu Netdisk](https://pan.baidu.com/s/1LrH9a67yi_-hFFVEGjTAlw?pwd=3209) (passcode: 3209) or the [Huggingface Repo](https://huggingface.co/datasets/chendelong/MEP-3M).
 
-- **Text Annotations**: the text annotations are stored in a single `annotation.json` file (1.58GB), which can be downloaded through [Baidu Netdisk](https://pan.baidu.com/s/1NncYjzZ0JL_W4-kawTGd_g?pwd=3209 ) (passcode: 3209) or the [Huggingface Repo](https://huggingface.co/datasets/chendelong/MEP-3M). We include a small sample file [`annotation-1k.json`](./annotation-1k.json) in this repo. Each sample is represented as a dictionary, for example:
+- **Text Annotations**: the text annotations are stored in a single `annotation.json` file (1.58GB), which can be downloaded through [Baidu Netdisk](https://pan.baidu.com/s/1NncYjzZ0JL_W4-kawTGd_g?pwd=3209 ) (passcode: 3209) or the [Huggingface Repo](https://huggingface.co/datasets/chendelong/MEP-3M). We include a small sample file [`annotations-1k.json`](./annotations-1k.json) in this repo. Each sample is represented as a dictionary, for example:
 
     ```json
     {
