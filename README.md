@@ -4,16 +4,16 @@
 > <br>
 > **MEP-3M: A Large-scale Multi-modal E-Commerce Products Dataset**
 > <br>
-> Workshop Version: IJCAI-21 Workshop on Long-Tailed Distribution Learning, 2021. [[paper](https://www.researchgate.net/publication/353946545_MEP-3M_A_Large-scale_Multi-modal_E-Commerce_Products_Dataset)] (Best Dataset Paper Award)
+> IJCAI-21 Workshop on Long-Tailed Distribution Learning, 2021. [[paper](https://www.researchgate.net/publication/353946545_MEP-3M_A_Large-scale_Multi-modal_E-Commerce_Products_Dataset)] (Best Dataset Paper Award)
 > <br>
-> Journal Version: Pattern Recognition, 2023. [[doi](https://doi.org/10.1016/j.patcog.2023.109519)]
+> Pattern Recognition, Volume 140, Page 109519 (2023). [[doi](https://doi.org/10.1016/j.patcog.2023.109519)]
 
 ![graphical abstract](assets/mep-3m.jpg)
 
-The MEP-3M consists of over **3 million** products and **599** fine-grained product categories. Each product is represented with an image-text pair and annotated with hierarchical labels. The data is collected from several Chinese online shopping websites. The text is in simplified Chinese. Key features of MEP-3M includes:
+The MEP-3M consists of over **3 million** products and **599** fine-grained product categories. Each product is represented with an image-text pair and annotated with hierarchical labels. The data is collected from several Chinese online shopping websites. The text is in simplified Chinese. Key features of MEP-3M include:
 
 - **Large-scale.** MEP-3M dataset consists of over 3 million product samples in total. Each sample consists of an image-text pair, resulting in 3,012,959 images and 156,069,329 characters. The entire dataset takes approximately 76GB of storage.  
-- **Hierarchical-categorized.** Three levels of the label are given. There are 14 classes (first level), 599 sub-classes (second level), and 13 sub-classes have further subsub-classes (third level).
+- **Hierarchical-categorized.** Three levels of the label are given. There are 14 classes (first level), 599 sub-classes (second level), and 13 sub-classes have further sub-sub-classes (third level).
 - **Multi-modal.** Each product has both image and Chinese label and title. 
 - **Fine-grained.** There are a total of 599 sub-classes, and many of them are fine-grained (e.g., different types of fruit, meat, shoes, clothes, etc.).
 - **Long-tailed.** MEP-3M is highly imbalanced. Some sub-classes in the dataset have more than 90k samples, while some classes have around 30 samples. 
@@ -22,7 +22,9 @@ The MEP-3M consists of over **3 million** products and **599** fine-grained prod
 
 The dataset consists of three parts: images, text annotations, and category metadata.
 
-- **Images**: the images are stored 599 `.rar` files (67GB in total) according to their sub-class label. The file names correspond to the sub-class ID. The full images can be accessed through [Baidu Netdisk](https://pan.baidu.com/s/1LrH9a67yi_-hFFVEGjTAlw?pwd=3209) (passcode: 3209) or the [Huggingface Repo](https://huggingface.co/datasets/chendelong/MEP-3M).
+- **Images**: the images are stored in 599 `.rar` files (67GB in total) according to their sub-class label. The file names correspond to the sub-class ID.
+    Image data is under preparation. Please email `fanliu@hhu.edu.cn` if you have any inquiries.
+    <!-- The full images can be accessed through [Baidu Netdisk](https://pan.baidu.com/s/1LrH9a67yi_-hFFVEGjTAlw?pwd=3209) (passcode: 3209) or the [Huggingface Repo](https://huggingface.co/datasets/chendelong/MEP-3M). --> 
 
 - **Text Annotations**: the text annotations are stored in a single `annotation.json` file (1.58GB), which can be downloaded through [Baidu Netdisk](https://pan.baidu.com/s/1NncYjzZ0JL_W4-kawTGd_g?pwd=3209 ) (passcode: 3209) or the [Huggingface Repo](https://huggingface.co/datasets/chendelong/MEP-3M). We include a small sample file [`annotations-1k.json`](./annotations-1k.json) in this repo. Each sample is represented as a dictionary, for example:
 
@@ -61,9 +63,9 @@ The dataset consists of three parts: images, text annotations, and category meta
     | 7        | 母婴/玩具/童装      | 598           | 床品           | FALSE           | FALSE             |
     | 7        | 母婴/玩具/童装      | 599           | 防尿用品       | FALSE           | FALSE             |
 
-## Disclaimer🚨
+## Term of Use🚨
 
-This dataset is provided "as is" and without any warranty of any kind, express or implied. The authors and their affiliated institutions are not responsible for any errors or omissions in the dataset, or for the results obtained from the use of the dataset. **The dataset is intended for academic research purposes only, and not for any commercial or other purposes.** The users of the dataset agree to acknowledge the source of the dataset and cite the relevant papers in any publications or presentations that use the dataset. The users of the dataset also agree to respect the intellectual property rights of the original data owners.
+By downloading or using the Dataset, as a Licensee I/we understand, acknowledge, and hereby agree to all the terms of use. This dataset is provided "as is" and without any warranty of any kind, express or implied. The authors and their affiliated institutions are not responsible for any errors or omissions in the dataset, or for the results obtained from the use of the dataset. **The dataset is intended for academic research purposes only, and not for any commercial or other purposes.** The users of the dataset agree to acknowledge the source of the dataset and cite the relevant papers in any publications or presentations that use the dataset. The users of the dataset also agree to respect the intellectual property rights of the original data owners.
 
 
 ## Citation🎈
